@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(pigeon_data)
 new_hash[names][color] << color.to_s
 
 else 
-  new_hash[names][colors] = [colors.to_s]
+  new_hash[names][color] = [color.to_s]
           end
         #set name level 1 -> key level 2 with describe as value of the hash 
         else
