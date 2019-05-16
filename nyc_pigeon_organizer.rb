@@ -11,9 +11,8 @@ new_hash[names][color] << color.to_s
 else 
   new_hash[names][color] = [color.to_s]
           end
-        #set name level 1 -> key level 2 with describe as value of the hash 
         else
-          pigeon_list[name] = {key => [describe.to_s]} #describe was symbol before so turn it to string
+          new_hash[names] = {key => [describe.to_s]} #describe was symbol before so turn it to string
         end
       end
     end
