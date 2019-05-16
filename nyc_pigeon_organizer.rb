@@ -8,3 +8,5 @@ def nyc_pigeon_organizer(pigeon_data)
 end
 
 if new_hash[names].has_key?(color)
+  new_hash[names][color] = []
+end 
