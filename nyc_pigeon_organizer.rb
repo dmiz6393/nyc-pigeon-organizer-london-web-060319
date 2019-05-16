@@ -12,10 +12,10 @@ else
   new_hash[names][color] = [color.to_s]
           end
         else
-          new_hash[names] = {color => [describe.to_s]} #describe was symbol before so turn it to string
+          new_hash[names] = {color => [colors.to_s]} 
         end
       end
     end
   end
-  pigeon_list
+ new_hash
 end
