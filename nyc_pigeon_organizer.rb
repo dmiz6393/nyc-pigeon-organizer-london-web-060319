@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(pigeon_data)
         if new_hash.has_key?(names)
      if new_hash[names].has_key?(color)
        
-new_hash[names][colors] << colors.to_s
+new_hash[names][color] << color.to_s
 
 else 
   new_hash[names][colors] = [colors.to_s]
