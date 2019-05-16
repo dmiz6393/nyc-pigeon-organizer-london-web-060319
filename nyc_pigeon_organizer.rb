@@ -5,8 +5,7 @@ def nyc_pigeon_organizer(pigeon_data)
       name.each do |names|
         if new_hash.has_key?(names)
      if new_hash[names].has_key?(color)
-end
-
+       
 new_hash[names][colors] << colors.to_s
 
 else 
