@@ -12,7 +12,7 @@ else
   new_hash[names][type_data] = [more_info.to_s]
           end
         else
-          new_hash[names] = {type_data => [colors.to_s]} 
+          new_hash[names] = {type_data => [more_info.to_s]} 
         end
       end
     end
