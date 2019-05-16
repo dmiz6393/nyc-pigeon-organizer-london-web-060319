@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(pigeon_data)
 new_hash[names][color] << color.to_s
 
 else 
-  new_hash[names][color] = [color.to_s]
+  new_hash[names][color] = [colors.to_s]
           end
         else
           new_hash[names] = {color => [colors.to_s]} 
