@@ -1,4 +1,4 @@
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
   new_hash={} 
  pigeon_data.each do |type_data,data| 
     data.each do |more_info, name| 
