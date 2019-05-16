@@ -8,3 +8,5 @@ def nyc_pigeon_organizer(pigeon_data)
 end
 
 new_hash[names][colors] << colors.to_s
+
+else
