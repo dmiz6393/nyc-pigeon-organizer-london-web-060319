@@ -12,7 +12,7 @@ else
   new_hash[names][color] = [color.to_s]
           end
         else
-          new_hash[names] = {key => [describe.to_s]} #describe was symbol before so turn it to string
+          new_hash[names] = {color => [describe.to_s]} #describe was symbol before so turn it to string
         end
       end
     end
